@@ -1,0 +1,139 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">foxy7t superhero developer banner</title>
+  <desc id="desc">Animated cyberpunk developer superhero banner for a GitHub profile README.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#09111f"/>
+      <stop offset="0.42" stop-color="#172554"/>
+      <stop offset="0.72" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="520" y1="265" x2="760" y2="705" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.38" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <radialGradient id="pythonGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(812 244) rotate(90) scale(144)">
+      <stop offset="0" stop-color="#facc15"/>
+      <stop offset="0.38" stop-color="#fb923c"/>
+      <stop offset="0.74" stop-color="#ef4444" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#ef4444" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+    <style>
+      .pulse { animation: pulse 2.6s ease-in-out infinite; transform-origin: center; }
+      .float { animation: float 5s ease-in-out infinite; }
+      .spark { animation: spark 4.8s linear infinite; }
+      .line { stroke-dasharray: 10 18; animation: dash 5s linear infinite; }
+      .cape { animation: cape 4s ease-in-out infinite; transform-origin: 540px 360px; }
+      @keyframes pulse {
+        0%, 100% { opacity: .78; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.05); }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-16px); }
+      }
+      @keyframes spark {
+        0% { opacity: 0; transform: translateY(35px) scale(.75); }
+        18% { opacity: 1; }
+        100% { opacity: 0; transform: translateY(-135px) scale(1.1); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -140; }
+      }
+      @keyframes cape {
+        0%, 100% { transform: skewX(0deg); }
+        50% { transform: skewX(-4deg); }
+      }
+    </style>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <rect width="1280" height="720" fill="#020617" opacity="0.18"/>
+
+  <g opacity="0.35">
+    <circle cx="110" cy="92" r="2" fill="#e0f2fe"/>
+    <circle cx="234" cy="146" r="1.6" fill="#e0f2fe"/>
+    <circle cx="1032" cy="88" r="2.2" fill="#e0f2fe"/>
+    <circle cx="1166" cy="172" r="1.7" fill="#e0f2fe"/>
+    <circle cx="955" cy="215" r="1.4" fill="#e0f2fe"/>
+  </g>
+
+  <g opacity="0.95">
+    <path class="line" d="M120 438 C220 360 302 388 395 318 C508 235 595 250 692 170 C780 98 892 125 1010 74" stroke="#38bdf8" stroke-width="3" opacity=".55"/>
+    <path class="line" d="M144 510 C286 448 362 500 480 420 C592 344 712 370 864 256 C968 178 1076 190 1180 128" stroke="#a78bfa" stroke-width="3" opacity=".5"/>
+    <path class="line" d="M76 278 C188 306 285 232 392 250 C524 273 570 154 720 178 C884 204 930 308 1128 250" stroke="#22c55e" stroke-width="2" opacity=".42"/>
+  </g>
+
+  <g transform="translate(0 40)">
+    <rect x="38" y="460" width="72" height="180" fill="#0f172a"/>
+    <rect x="128" y="392" width="86" height="248" fill="#111827"/>
+    <rect x="236" y="432" width="108" height="208" fill="#0f172a"/>
+    <rect x="376" y="350" width="92" height="290" fill="#111827"/>
+    <rect x="826" y="390" width="80" height="250" fill="#0f172a"/>
+    <rect x="932" y="332" width="116" height="308" fill="#111827"/>
+    <rect x="1080" y="430" width="82" height="210" fill="#0f172a"/>
+    <rect x="1184" y="372" width="68" height="268" fill="#111827"/>
+    <g fill="#38bdf8" opacity=".75">
+      <rect x="58" y="490" width="20" height="8"/><rect x="148" y="430" width="30" height="7"/><rect x="262" y="470" width="44" height="7"/>
+      <rect x="398" y="388" width="38" height="7"/><rect x="850" y="432" width="28" height="7"/><rect x="960" y="370" width="56" height="7"/>
+      <rect x="1102" y="470" width="28" height="7"/><rect x="1203" y="414" width="24" height="7"/>
+    </g>
+    <g fill="#22c55e" opacity=".55">
+      <circle cx="167" cy="520" r="5"/><circle cx="286" cy="542" r="5"/><circle cx="428" cy="470" r="5"/><circle cx="984" cy="500" r="5"/><circle cx="1120" cy="535" r="5"/>
+    </g>
+  </g>
+
+  <ellipse cx="640" cy="690" rx="385" ry="40" fill="#020617" opacity=".58"/>
+
+  <g filter="url(#shadow)">
+    <path class="cape" d="M552 292 C454 340 402 462 360 661 C462 626 552 630 620 664 C602 520 598 394 552 292Z" fill="#b91c1c"/>
+    <path class="cape" d="M728 292 C826 340 878 462 920 661 C818 626 728 630 660 664 C678 520 682 394 728 292Z" fill="#7f1d1d"/>
+
+    <path d="M526 690 C542 510 544 372 590 292 L690 292 C736 372 738 510 754 690 H526Z" fill="url(#suit)"/>
+    <path d="M575 320 L640 474 L705 320 C705 320 682 560 640 646 C598 560 575 320 575 320Z" fill="#020617" opacity=".42"/>
+    <path d="M582 342 L640 480 L698 342" stroke="#67e8f9" stroke-width="5" opacity=".7"/>
+    <circle cx="640" cy="252" r="68" fill="#d6a36c"/>
+    <path d="M584 236 C595 168 683 157 711 218 C692 194 644 199 612 211 C600 216 591 225 584 236Z" fill="#111827"/>
+    <path d="M604 263 C625 285 660 286 681 263" stroke="#111827" stroke-width="6" stroke-linecap="round" opacity=".82"/>
+    <circle cx="617" cy="244" r="6" fill="#111827"/>
+    <circle cx="663" cy="244" r="6" fill="#111827"/>
+    <path d="M562 344 C510 386 456 440 420 508" stroke="#1e3a8a" stroke-width="34" stroke-linecap="round"/>
+    <path d="M718 344 C770 302 806 272 824 242" stroke="#1e3a8a" stroke-width="34" stroke-linecap="round"/>
+    <path d="M420 508 C398 536 430 562 454 534" stroke="#d6a36c" stroke-width="28" stroke-linecap="round"/>
+    <path d="M824 242 C846 214 818 190 794 220" stroke="#d6a36c" stroke-width="28" stroke-linecap="round"/>
+  </g>
+
+  <g class="pulse" filter="url(#softGlow)">
+    <circle cx="812" cy="244" r="140" fill="url(#pythonGlow)"/>
+    <g transform="translate(764 195)">
+      <path d="M49 0 C24 0 20 12 20 23 V40 H63 V48 H7 C-5 48 -14 58 -14 74 V96 C-14 112 -4 122 10 122 H26 V100 C26 86 38 76 52 76 H91 C103 76 113 66 113 54 V23 C113 10 101 0 86 0 H49Z" fill="#3776AB"/>
+      <circle cx="43" cy="18" r="6" fill="#fff"/>
+      <path d="M70 148 C95 148 99 136 99 125 V108 H56 V100 H112 C124 100 133 90 133 74 V52 C133 36 123 26 109 26 H93 V48 C93 62 81 72 67 72 H28 C16 72 6 82 6 94 V125 C6 138 18 148 33 148 H70Z" fill="#FFD43B"/>
+      <circle cx="76" cy="130" r="6" fill="#fff"/>
+    </g>
+  </g>
+
+  <g class="float">
+    <g class="spark" style="animation-delay:.1s"><circle cx="430" cy="478" r="8" fill="#61dafb"/><text x="447" y="484" fill="#bfdbfe" font-family="Segoe UI, Arial" font-size="18">React</text></g>
+    <g class="spark" style="animation-delay:1.1s"><circle cx="880" cy="470" r="8" fill="#22c55e"/><text x="896" y="476" fill="#bbf7d0" font-family="Segoe UI, Arial" font-size="18">Django</text></g>
+    <g class="spark" style="animation-delay:2s"><circle cx="505" cy="548" r="8" fill="#f97316"/><text x="522" y="554" fill="#fed7aa" font-family="Segoe UI, Arial" font-size="18">AWS</text></g>
+    <g class="spark" style="animation-delay:3s"><circle cx="800" cy="548" r="8" fill="#38bdf8"/><text x="817" y="554" fill="#bae6fd" font-family="Segoe UI, Arial" font-size="18">Docker</text></g>
+  </g>
+
+  <g>
+    <text x="80" y="128" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="800">foxy7t</text>
+    <text x="82" y="174" fill="#c4b5fd" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Python / AI / Vision / App Experiments</text>
+    <text x="82" y="214" fill="#bae6fd" font-family="Consolas, monospace" font-size="18">git commit -m "build something useful"</text>
+  </g>
+</svg>
