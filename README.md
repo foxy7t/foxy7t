@@ -38,7 +38,7 @@ class AIEngineer(foxy7t):
     philosophy = "if it doesn't feel alive, ship it again."
 
     def currently(self) -> str:
-        return "building explabs â€” experiential ai lab"
+        return "building explabs — experiential ai lab"
 
     def reach(self) -> dict:
         return {"github": "@foxy7t", "status": "open to weird ideas"}
@@ -49,11 +49,11 @@ class AIEngineer(foxy7t):
 <div align="center">
 
 ```
-äººå·¥æ™ºèƒ½    â”€â”€ LLMs Â· RAG Â· Fine-tuning Â· Prompt Engineering
-AUTOMATION  â”€â”€ AI Agents Â· MCP Tools Â· Voice Pipelines
-VISION      â”€â”€ OpenCV Â· MediaPipe Â· Real-time CV
-BACKEND     â”€â”€ Python Â· FastAPI Â· WebSockets
-PRODUCT     â”€â”€ React Native Â· Expo Â· UI Engineering
+人工智能    ── LLMs · RAG · Fine-tuning · Prompt Engineering
+AUTOMATION  ── AI Agents · MCP Tools · Voice Pipelines
+VISION      ── OpenCV · MediaPipe · Real-time CV
+BACKEND     ── Python · FastAPI · WebSockets
+PRODUCT     ── React Native · Expo · UI Engineering
 
 ```
 
@@ -102,7 +102,7 @@ PRODUCT     â”€â”€ React Native Â· Expo Â· UI Engineering
 <div align="center">
 <a href="https://github.com/foxy7t/friday-tony-stark-demo"><img src="https://img.shields.io/badge/voice_agent-00FF41?style=for-the-badge&logo=livekit&logoColor=black" alt="friday" /></a>
 <br />
-<sub>MCP-powered voice assistant â€” LiveKit, tool calling, news, system utilities.</sub>
+<sub>MCP-powered voice assistant — LiveKit, tool calling, news, system utilities.</sub>
 
 </div>
 </td>
@@ -112,7 +112,7 @@ PRODUCT     â”€â”€ React Native Â· Expo Â· UI Engineering
 <div align="center">
 <a href="https://github.com/foxy7t/sleep-detector"><img src="https://img.shields.io/badge/computer_vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="sleep-detector" /></a>
 <br />
-<sub>Drowsiness monitoring â€” MediaPipe Face Landmarker, OpenCV, CustomTkinter.</sub>
+<sub>Drowsiness monitoring — MediaPipe Face Landmarker, OpenCV, CustomTkinter.</sub>
 
 </div>
 </td>
@@ -120,11 +120,11 @@ PRODUCT     â”€â”€ React Native Â· Expo Â· UI Engineering
 <tr>
 <td width="50%">
 
-<h3 align="center">buildup â€” FitTrackAI</h3>
+<h3 align="center">buildup — FitTrackAI</h3>
 <div align="center">
 <a href="https://github.com/foxy7t/buildup"><img src="https://img.shields.io/badge/fitness_ai-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="buildup" /></a>
 <br />
-<sub>Expo fitness app â€” workout analytics + AI coach chat experience.</sub>
+<sub>Expo fitness app — workout analytics + AI coach chat experience.</sub>
 
 </div>
 </td>
@@ -134,7 +134,7 @@ PRODUCT     â”€â”€ React Native Â· Expo Â· UI Engineering
 <div align="center">
 <a href="https://github.com/foxy7t/explabs-landing"><img src="https://img.shields.io/badge/experiential_ai-FF6F00?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="explabs" /></a>
 <br />
-<sub>Terminal-first lab for building experiential AI â€” the mothership.</sub>
+<sub>Terminal-first lab for building experiential AI — the mothership.</sub>
 
 </div>
 </td>
@@ -149,8 +149,8 @@ PRODUCT     â”€â”€ React Native Â· Expo Â· UI Engineering
 
 <img src="https://raw.githubusercontent.com/foxy7t/foxy7t/output/ackbar/src/components/svg2Gif/frames/frame_0000.svg" width="18" align="center" alt=":/">
 
-**[explabs-landing](https://github.com/foxy7t/explabs-landing)** â€” cinematic landing for the lab Â·
-**[koko](https://github.com/foxy7t/koko)** Â· **[alam](https://github.com/foxy7t/alam)** â€” side experiments
+**[explabs-landing](https://github.com/foxy7t/explabs-landing)** — cinematic landing for the lab ·
+**[koko](https://github.com/foxy7t/koko)** · **[alam](https://github.com/foxy7t/alam)** — side experiments
 
 </div>
 
