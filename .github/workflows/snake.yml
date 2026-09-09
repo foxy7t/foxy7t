@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: generate snake
-        uses: Platius/snek@main
+        uses: Platane/snek@v3
         id: snake
         with:
           github_user_name: foxy7t
